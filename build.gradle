@@ -1,0 +1,13 @@
+repositories {
+    maven { url 'https://repo.spongepowered.org/repository/maven-public/' }
+    maven { url 'https://cursemaven.com' }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    // Meteor Client dependency
+    modImplementation "meteordevelopment:meteor-client:${project.meteor_version}"
+    
+    // Baritone API dependency for 1.21.x
+    modImplementation "com.github.cabaletta:baritone:api-1.2.1" // Use matching version line
+}￼Enter
